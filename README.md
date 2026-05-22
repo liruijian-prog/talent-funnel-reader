@@ -47,9 +47,26 @@ http://<你的局域网IP>:8000
 流程很简单：
 
 1. 继续修订 `md` 书稿
-2. 重新运行 `python3 reader/build_content.py`
-3. 如果阅读器已部署到服务器，同步新的 `reader/content/`
-4. 阅读器启动后会比对 `content/book.json` 的版本号并提示刷新
+2. 一键发布：
+
+```bash
+python3 scripts/deploy_reader.py
+```
+
+它会自动完成：
+
+- 重建 `reader/content/`
+- 同步到 GitHub Pages 仓库 `liruijian-prog/talent-funnel-reader`
+- 等待线上构建完成并打印可访问地址
+
+常用参数：
+
+```bash
+python3 scripts/deploy_reader.py --skip-wait
+python3 scripts/deploy_reader.py --source outputs/book_终稿前收口版_2026-05-22/manuscript
+```
+
+阅读器启动后会比对 `content/book.json` 的版本号并提示刷新。
 
 ## 4. 当前能力
 
