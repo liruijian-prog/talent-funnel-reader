@@ -4,12 +4,12 @@
     "shortTitle": "人才漏斗",
     "subtitle": "中国青少年足球的结构诊断、国际镜像与治理重建",
     "description": "一套面向手机阅读的书稿阅读器原型。内容来自当前书稿副本，可在后续修订后重建并自动同步到阅读端。",
-    "version": "2026.05.22.1707",
-    "generatedAt": "2026-05-22 20:19",
+    "version": "2026.05.25.2326",
+    "generatedAt": "2026-05-25 23:55",
     "sourceRoot": "outputs/book_终稿前收口版_2026-05-22/manuscript",
     "coverImagePath": "content/assets/cover/中国足球诊断金字塔.png",
     "chapterCount": 30,
-    "totalChineseChars": 161593,
+    "totalChineseChars": 178205,
     "glossaryPath": "content/glossary.json",
     "glossaryCount": 61
   },
@@ -48,12 +48,12 @@
       "sectionId": "opening",
       "sectionTitle": "引言与图示",
       "contentPath": "content/chapters/intro-01.json",
-      "summary": "写在前面：习近平总书记关于哲学社会科学高质量发展的重要指示中提出，要立足中国实际，回答\"中国之问、世界之问、人民之问、时代之问\"。本书是这一问题意识在青少年足球这一具体领域的回应。本节不是政治表态，是对全书研究问题的清晰宣告——读者可以用本节作为索引，识别后续每一章在回答哪一问的哪一层。",
-      "wordCount": 4123,
-      "readingMinutes": 9,
+      "summary": "写在前面：习近平总书记近期就推动哲学社会科学高质量发展作出重要指示，强调加快构建中国哲学社会科学自主知识体系；2022年4月25日，习近平总书记在中国人民大学考察时又强调，哲学社会科学工作者要自觉以回答\"中国之问、世界之问、人民之问、时代之问\"为学术己任，并指出加快构建中国特色哲学社会科学，归根结底是建构中国自主的知识体系。本书尝试把这一要求落实到青少年足球研究之中。本节不是一般性的开场套话，而是对全书研究问题的清晰宣告——读者可以把它当作索引，识别后续每一章在回答哪一问、哪一层的问题。",
+      "wordCount": 5062,
+      "readingMinutes": 11,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 15:22"
+      "updatedAt": "2026-05-23 06:51"
     },
     {
       "id": "intro-02",
@@ -64,11 +64,11 @@
       "sectionTitle": "引言与图示",
       "contentPath": "content/chapters/intro-02.json",
       "summary": "写在前面：本节是引言中最实用的一节。它给读者一份地图——告诉读者三编 20 章如何相互支撑、应当按什么次序阅读、可以从哪一章作为入口。读完本节，读者应当能在打开任何一章时，清楚地知道这一章在全书中的位置。",
-      "wordCount": 3221,
+      "wordCount": 3254,
       "readingMinutes": 7,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 17:07"
+      "updatedAt": "2026-05-22 22:58"
     },
     {
       "id": "intro-03",
@@ -79,11 +79,11 @@
       "sectionTitle": "引言与图示",
       "contentPath": "content/chapters/intro-03.json",
       "summary": "写在前面：本节不是论文摘要，也不是数学证明的复述。它的目的是把后文反复使用的几个核心概念—— θ̄ 治理边界、 Δ_super 超加性损失、不可分离性定理、调配破坏效应——讲清楚，让读完这一节的读者，在阅读后续每一章时都能识别出\"这一段在用引擎的哪一部分\"。完整的形式化推导见本书附录E。",
-      "wordCount": 5221,
+      "wordCount": 5253,
       "readingMinutes": 12,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-20 01:20"
+      "updatedAt": "2026-05-25 21:58"
     },
     {
       "id": "concept-card",
@@ -98,7 +98,7 @@
       "readingMinutes": 10,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-21 08:56"
+      "updatedAt": "2026-05-21 06:56"
     },
     {
       "id": "part1-ch01",
@@ -109,11 +109,11 @@
       "sectionTitle": "第一编 · 病灶诊断",
       "contentPath": "content/chapters/part1-ch01.json",
       "summary": "注：中国标注三级口径。即便采用最宽松的口径C（约435/万），仍显著低于德国和西班牙，约为日本的一半左右。若采用与其他国家青少年竞技人口更接近的口径A（约7-9/万），差距会被进一步拉大。括号内数字为各国2024年FIFA男足排名。",
-      "wordCount": 5350,
-      "readingMinutes": 12,
-      "imageCount": 0,
+      "wordCount": 5654,
+      "readingMinutes": 13,
+      "imageCount": 4,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-21 10:24"
+      "updatedAt": "2026-05-23 06:51"
     },
     {
       "id": "part1-ch02",
@@ -124,11 +124,11 @@
       "sectionTitle": "第一编 · 病灶诊断",
       "contentPath": "content/chapters/part1-ch02.json",
       "summary": "核心判断 ：中国青少年足球选材体系的失灵，不是因为哪个环节的人不够努力或不够诚实，而是制度设计在错误的时间要求做出不可逆的选择，并在选择完成后消除了继续努力的激励。这是一个可以用 1970 年的经济学理论精确描述的系统性问题——它运行了三十年，仍在继续。",
-      "wordCount": 4774,
+      "wordCount": 4791,
       "readingMinutes": 11,
-      "imageCount": 0,
+      "imageCount": 5,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-21 10:27"
+      "updatedAt": "2026-05-23 08:06"
     },
     {
       "id": "part1-ch03",
@@ -139,11 +139,11 @@
       "sectionTitle": "第一编 · 病灶诊断",
       "contentPath": "content/chapters/part1-ch03.json",
       "summary": "核心判断 ：中国青少年足球最昂贵的，不是偶尔看走眼，而是看走眼之后没有第二次。真正成熟的体系并不是第一次就把人看准，而是依靠更多比赛、更多数据和更多回流通道，把早期误判的代价尽量降下来。",
-      "wordCount": 4393,
+      "wordCount": 4661,
       "readingMinutes": 10,
-      "imageCount": 0,
+      "imageCount": 5,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-21 10:29"
+      "updatedAt": "2026-05-23 09:16"
     },
     {
       "id": "part1-ch04",
@@ -153,12 +153,12 @@
       "sectionId": "part-1",
       "sectionTitle": "第一编 · 病灶诊断",
       "contentPath": "content/chapters/part1-ch04.json",
-      "summary": "核心判断 ：中国青训教练的\"水平差距\"不是态度问题，是认知积累的物理条件不足。每年 8 场比赛 vs 德国教练每年 34 场，意味着中国教练需要 2.6 年才能完成一次可靠评估，德国教练只需 2 个月。这是慢动作困局；其供给侧补充则被教练身份谬误（CIF）与主帅选拔的不可分离性投影（IPHS）双重锁定——球员路径垄断顶级入口，非球员路径几乎没有上升通道。两者合起来，构成中国教练的认知陷阱与供给缺口。",
-      "wordCount": 10925,
-      "readingMinutes": 24,
+      "summary": "核心判断 ：中国青训教练的\"水平差距\"不是态度问题，是认知积累的物理条件不足。中国基层教练面对的常态是每年约 8 场正式比赛；德国地区青训联赛的典型完整赛季则在 30+ 场，常见参照值约 34 场。结果是，中国教练往往需要 2.6 年才能完成一次相对可靠的评估，德国教练通常只需约 2 个月。这是慢动作困局；其供给侧补充则被教练身份谬误（CIF）与主帅选拔的不可分离性投影（IPHS）双重锁定——球员路径垄断顶级入口，非球员路径几乎没有上升通道。两者合起来，构成中国教练的认知陷阱与供给缺口。",
+      "wordCount": 11196,
+      "readingMinutes": 25,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 17:07"
+      "updatedAt": "2026-05-25 21:40"
     },
     {
       "id": "part1-ch05",
@@ -168,57 +168,57 @@
       "sectionId": "part-1",
       "sectionTitle": "第一编 · 病灶诊断",
       "contentPath": "content/chapters/part1-ch05.json",
-      "summary": "核心判断 ：中国青少年足球的真问题不是赛事少，是赛事 多而碎 。六套并行的全国性赛事在三个互相排斥的考核体系下运行——它们看起来覆盖了所有人，实际谁都没有完整经历。2025年4月30日中足联接管职业俱乐部梯队赛事不是整合，是又一次切分：中国足协手里有锦标赛，中足联手里有精英联赛，教育部手里有校园足球联赛，体育总局青少司手里有体校杯， 整合的反面恰恰是又一轮重新分配所有权 。在这种结构里，每多设一套赛事，都不是新增比赛机会，而是新增一道边界墙。",
-      "wordCount": 8135,
+      "summary": "核心判断 ：中国青少年足球的真问题不是赛事少，是赛事 多而碎 。六套并行的全国性赛事在三个互相排斥的考核体系下运行。它们看起来覆盖了所有人，实际谁都没有完整经历。2025年4月30日职业俱乐部梯队赛事的主办结构调整，并未自动带来一体化整合，而是再次显露出多头并行的归口格局：中国足协负责锦标赛，中足联负责精英联赛，教育部负责校园足球联赛，体育总局青少司负责体校杯。在这种结构里，每多设一套赛事，往往不是新增可持续比赛机会，而是新增一道制度边界。",
+      "wordCount": 8145,
       "readingMinutes": 18,
       "imageCount": 5,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 16:50"
+      "updatedAt": "2026-05-22 23:17"
     },
     {
       "id": "part1-ch06",
       "order": 10,
-      "title": "第六章 · 病灶链条",
+      "title": "第6章 · 病灶链条",
       "subtitle": "五个症状，一个引擎",
       "sectionId": "part-1",
       "sectionTitle": "第一编 · 病灶诊断",
       "contentPath": "content/chapters/part1-ch06.json",
       "summary": "核心判断 ：第一编第1-5章呈现的五个病灶——人口窄、结构基因失衡、选材失效、教练CRI低下、六轨并行——长期被中国足球研究当作五个独立问题分别诊断、分别开方。本书的论证恰好相反：这五件事不是五件事，是同一组织经济学约束在五个不同环节上的五次成像。它们之间不是线性链条，而是一个具有正反馈的 病灶耦合环 。理解这一点之后，过去四十年所有\"修好一个环节\"的努力为什么都不能积累，就有了精确答案。",
-      "wordCount": 6512,
-      "readingMinutes": 14,
-      "imageCount": 0,
+      "wordCount": 7765,
+      "readingMinutes": 17,
+      "imageCount": 4,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 15:53"
+      "updatedAt": "2026-05-25 21:40"
     },
     {
       "id": "part2-ch07",
       "order": 11,
       "title": "第7章 · 赛制的力量",
-      "subtitle": "每周一场球，改变一代人",
+      "subtitle": "不是多办几次比赛，而是让每个周末都有球踢",
       "sectionId": "part-2",
       "sectionTitle": "第二编 · 国际镜像",
       "contentPath": "content/chapters/part2-ch07.json",
-      "summary": "核心判断 ：顶级足球国家的人才不是被训练出来的，是被比赛喂出来的。每周一场有晋级机制的正式比赛，是一套天然的正向激励系统——孩子主动要求去练，而不是被强迫去练。这是中国青少年足球最根本的制度缺口，也是第一编\"比赛的碎片\"在国际镜像中的直接映照。",
-      "wordCount": 4173,
-      "readingMinutes": 9,
-      "imageCount": 0,
+      "summary": "核心判断 ：赛制不是把少数孩子送进总决赛的通道，而是把训练、学校、家庭、俱乐部和选材绑进同一张周历的制度。真正强的体系，不是偶尔办出一次热闹的锦标赛，而是让普通孩子在八九个月里，几乎每周都有一场有意义的正式比赛。",
+      "wordCount": 6139,
+      "readingMinutes": 14,
+      "imageCount": 3,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 15:58"
+      "updatedAt": "2026-05-23 21:12"
     },
     {
       "id": "part2-ch08",
       "order": 12,
       "title": "第8章 · 教练是怎么炼成的",
-      "subtitle": "从球员到知识者：一种独立职业的诞生",
+      "subtitle": "从球员经历到知识职业：教练供给的制度答案",
       "sectionId": "part-2",
       "sectionTitle": "第二编 · 国际镜像",
       "contentPath": "content/chapters/part2-ch08.json",
-      "summary": "核心判断 ：中国教练困局的根源，是把球员经历当作教练资质的唯一来源。这不是中国独有的问题，但中国把它固化成了一种制度性偏见。国际先进经验的本质，是把\"教练\"视为一种独立职业——有独立的知识体系、独立的成长路径、独立的职业尊严。这种转变不是靠口号完成的，而是靠具体的制度设计完成的。本章通过五个国家的案例，呈现这种转变是如何发生的。",
-      "wordCount": 3632,
-      "readingMinutes": 8,
-      "imageCount": 0,
+      "summary": "核心判断 ：中国教练困局的重要根源之一，是长期把球员经历当作教练资质的优先来源，甚至在不少具体场景里把它当作隐性门槛。球员经历当然有价值，但它不是教练职业的唯一母体。国际先进经验真正成熟的地方，不是否认球员经历，而是把“教练”建设成一种独立职业：有独立的知识体系、独立的成长路径、独立的职业尊严。",
+      "wordCount": 5654,
+      "readingMinutes": 13,
+      "imageCount": 4,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 00:45"
+      "updatedAt": "2026-05-24 00:18"
     },
     {
       "id": "part2-ch09",
@@ -228,12 +228,12 @@
       "sectionId": "part-2",
       "sectionTitle": "第二编 · 国际镜像",
       "contentPath": "content/chapters/part2-ch09.json",
-      "summary": "核心判断 ：在中国语境里，\"青训\"是一个被反复使用却很少被精确定义的词。它同时被拿来指代足球普及、选材、训练营、足校、职业俱乐部梯队、校园足球。把这六件事混在一起，是过去四十年中国青训讨论持续失焦的根源之一。本章先给出青训的精确定义，再通过西班牙、德国、日本、巴西四种范式的横向比较，说明不同国家是如何在不同的历史条件下，各自找到了让青训运转起来的路径。",
-      "wordCount": 3756,
-      "readingMinutes": 8,
-      "imageCount": 0,
+      "summary": "核心判断 ：青训不是一所学校，不是一组训练课，也不是一个暑期营。它是一个孩子在多年时间里，能否被持续训练、持续比赛、持续识别的制度环境。不同国家的表面做法差异很大，但真正稳定运行的体系，最后都要回答同一组问题。",
+      "wordCount": 4618,
+      "readingMinutes": 10,
+      "imageCount": 2,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 15:56"
+      "updatedAt": "2026-05-24 00:18"
     },
     {
       "id": "part2-ch10",
@@ -243,12 +243,12 @@
       "sectionId": "part-2",
       "sectionTitle": "第二编 · 国际镜像",
       "contentPath": "content/chapters/part2-ch10.json",
-      "summary": "核心判断 ：第9章把四种范式横向打开，看到了具体差异。但四种范式之下，存在某些跨范式都必须共享的底层要素——无论走哪条路，这些要素都绕不开。本章从国际青训实践中归纳出七条青训DNA，每一条都在四种范式中以不同形态共同存在，每一条在中国当前的缺位都不同程度地制约着青训体系的运转。这七条DNA，是第三编方案设计的底层标尺。",
-      "wordCount": 2705,
-      "readingMinutes": 6,
-      "imageCount": 0,
+      "summary": "核心判断 ：四种范式的差别很大，但成熟体系反复做对的事情并没有那么多。把这些重复出现的底层约束提炼出来，目的不是再造一套抽象名词，而是给中国方案一把能用的尺子。",
+      "wordCount": 3708,
+      "readingMinutes": 8,
+      "imageCount": 1,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 15:58"
+      "updatedAt": "2026-05-24 00:19"
     },
     {
       "id": "part2-ch11",
@@ -258,42 +258,42 @@
       "sectionId": "part-2",
       "sectionTitle": "第二编 · 国际镜像",
       "contentPath": "content/chapters/part2-ch11.json",
-      "summary": "核心判断 ：足球科技正在经历一场从\"顶级专享\"到\"普惠化\"的民主化革命。AI时代加速了这一趋势，并带来了一个在理论上极为重要的可能性：让原本不可核实的软信息部分可核实化。这不只是效率提升，而是一次治理结构的改变。本章分两层展开：第一层是顶级应用，建立认知基准；第二层是普惠化趋势，这才是重点。最后落脚于AI如何让软信息部分可核实化这一核心论点，以及CoachMind AI在这个框架中的理论位置。",
-      "wordCount": 3503,
-      "readingMinutes": 8,
-      "imageCount": 0,
+      "summary": "核心判断 ：足球科技的真正变化，不是又多了几家卖设备的公司，而是\"比赛被连续看见\"的门槛正在下降。顶级俱乐部先把数字化做成制度，AI 又把其中一部分能力向基层下放。对中国而言，这场变化最重要的意义不在于追赶豪门配置，而在于让原本只能靠师徒口传、难以留存的判断过程，开始获得部分可核实、可复盘、可传递的载体。本章先看顶级体系如何把数字化嵌入青训治理，再看普惠化工具如何改变基层现场，最后落到一个更关键的问题：AI 能把足球中的软信息推到什么程度，又不能替代什么。",
+      "wordCount": 7970,
+      "readingMinutes": 18,
+      "imageCount": 3,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 00:50"
+      "updatedAt": "2026-05-25 22:36"
     },
     {
       "id": "part2-ch12",
       "order": 16,
       "title": "第12章 · 文化的根",
-      "subtitle": "足球文化从哪里来",
+      "subtitle": "足球文化不是天赋，而是被组织出来的日常",
       "sectionId": "part-2",
       "sectionTitle": "第二编 · 国际镜像",
       "contentPath": "content/chapters/part2-ch12.json",
-      "summary": "核心判断 ：每一个\"天然爱足球\"的国家，背后都有一套刻意设计的文化生产机制。文化不是空气，无法自然弥漫——它是记忆积累的结果，而记忆需要制度提供的时间、场地和情感触发点。中国足球文化的薄弱，根本原因不是中国人\"不爱足球\"，而是中国从未系统性地投资过这些触发点。",
-      "wordCount": 5274,
-      "readingMinutes": 12,
-      "imageCount": 0,
+      "summary": "核心判断 ：足球文化不是民族性格的自然喷发，而是由参与密度、身份载体、公共仪式和代际叙事长期累积出来的社会基础设施。中国真正短缺的，不是观看热情，而是能把热情稳定转化为周末赛历、家庭记忆和学校叙事的制度装置。",
+      "wordCount": 6880,
+      "readingMinutes": 15,
+      "imageCount": 4,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 15:56"
+      "updatedAt": "2026-05-25 23:25"
     },
     {
       "id": "part2-ch13",
       "order": 17,
       "title": "第13章 · 镜子反射",
-      "subtitle": "国际经验照回中国：四重锁与五项杠杆",
+      "subtitle": "国际经验照回中国：为什么中国不能简单复制任何一国",
       "sectionId": "part-2",
       "sectionTitle": "第二编 · 国际镜像",
       "contentPath": "content/chapters/part2-ch13.json",
-      "summary": "核心判断 ：第二编前六章（第7—12章）建立了完整的国际经验分析工具——赛制密度、教练职业化、青训定义、七条DNA、技术普惠化、文化设计机制。带着这套工具回看中国青训四十年，会发现一个反直觉的事实：中国不是\"没有努力\"——体校时代、健力宝模式、徐根宝崇明岛、恒大足校、校园足球大跃进、国家级青训学院，每一步都有真实的投入、真实的探索、真实的代价。但每一次努力都未能积累，根本原因不是执行力不足，而是中国处在一个国际上任何国家都未曾处过的位置——浪潮压缩、多委托人冲突极大、俱乐部文化身份缺位、教育系统双重锁。在这一约束组合下，任何\"整体复制某一国\"的路径都已被结构性证伪。本章是第二编的最终收口——它把镜像反射回中国，让第三编的方案设计有了\"中国独特约束条件\"的明确锚定。",
-      "wordCount": 6215,
-      "readingMinutes": 14,
-      "imageCount": 0,
+      "summary": "核心判断 ：第二编前六章给出的，不是一份“抄作业清单”，而是一套照见中国的镜子。镜子照出的最重要事实不是中国没有努力，而是中国在同一时间里被迫同时处理比赛密度、教练供给、数据基础、文化载体和教育时间五个层面的重建任务。正因如此，中国既不能整体复制英格兰、日本、德国或澳大利亚中的任何一种路径，也不能用“国情特殊”四个字把所有国际经验一笔抹掉。",
+      "wordCount": 5244,
+      "readingMinutes": 12,
+      "imageCount": 4,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 15:54"
+      "updatedAt": "2026-05-25 23:26"
     },
     {
       "id": "part3-ch14",
@@ -308,7 +308,7 @@
       "readingMinutes": 12,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 15:46"
+      "updatedAt": "2026-05-22 13:46"
     },
     {
       "id": "part3-ch15",
@@ -319,11 +319,11 @@
       "sectionTitle": "第三编 · 治理重建",
       "contentPath": "content/chapters/part3-ch15.json",
       "summary": "核心判断 ：中国青少年足球联赛体系的困局，不是缺少一项新赛事，而是缺少一套 让所有赛事共享同一张底盘 的基础设施——统一的球员数据、全年的比赛节律、跨主体的竞争记录。北京体育大学体育中外人文交流研究院推进的\"复兴杯五级联赛\"方案，如果按\"第七套并行赛事\"去做，就是重复第5章诊断的老路；如果按\"分布式联赛操作系统\"去做，它才可能同时修复比赛稀缺和赛事碎片两个根本问题。这两种做法的物理形态在第一年几乎相同——差别在于设计逻辑、成本结构和扩张机制，而这三者决定了五年后的结果完全不同。",
-      "wordCount": 6410,
-      "readingMinutes": 14,
+      "wordCount": 7381,
+      "readingMinutes": 16,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 15:33"
+      "updatedAt": "2026-05-25 21:41"
     },
     {
       "id": "part3-ch16",
@@ -338,7 +338,7 @@
       "readingMinutes": 18,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 14:58"
+      "updatedAt": "2026-05-23 06:15"
     },
     {
       "id": "part3-ch17",
@@ -349,11 +349,11 @@
       "sectionTitle": "第三编 · 治理重建",
       "contentPath": "content/chapters/part3-ch17.json",
       "summary": "核心判断 ：当全球足球科技正在经历\"高精尖→普惠化\"的革命，中国不能只做使用者，必须做场景定义者。中国体育拥有任何国家都罕见的应用基数——47 万所学校、484 万个体育场地、38421 亿元体育产业总规模——这是中国体育 AI 在全球版图里的真实位置。同时具备真实场景、专项知识、可标注数据、试点条件和行业公信力的体育院校，是这一场景定义工作的天然牵头者。CoachMind AI 是其中最具示范性的高壁垒标杆，更是\"高精尖+普惠化\"在中国的产品级实现。",
-      "wordCount": 6267,
+      "wordCount": 6254,
       "readingMinutes": 14,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 15:45"
+      "updatedAt": "2026-05-22 22:58"
     },
     {
       "id": "part3-ch18",
@@ -368,7 +368,7 @@
       "readingMinutes": 22,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 17:07"
+      "updatedAt": "2026-05-22 15:07"
     },
     {
       "id": "part3-ch19",
@@ -379,11 +379,11 @@
       "sectionTitle": "第三编 · 治理重建",
       "contentPath": "content/chapters/part3-ch19.json",
       "summary": "核心判断 ：第 14-18 章给出的五种工具不是并列的\"五条腿\"——它们是耦合的。在中国当前的约束条件下，要让这五种工具产生\"耦合改善乘数\"，必须同时打通六对长期割裂的维度。第 6 章的病灶耦合环（PCL）才有可能被反向解开。",
-      "wordCount": 7908,
+      "wordCount": 8040,
       "readingMinutes": 18,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 17:07"
+      "updatedAt": "2026-05-25 21:40"
     },
     {
       "id": "part3-ch20",
@@ -393,12 +393,12 @@
       "sectionId": "part-3",
       "sectionTitle": "第三编 · 治理重建",
       "contentPath": "content/chapters/part3-ch20.json",
-      "summary": "核心判断 ：本书前 19 章给出了诊断、镜像、工具与系统。本章回答的是更本质的问题——在中国式现代化的语境里，青少年足球作为一种公共品，需要什么样的治理范式。这一问题不是\"由谁牵头\"或\"如何分工\"的执行问题，是国家治理体系和治理能力现代化的具体落点之一。",
-      "wordCount": 9150,
-      "readingMinutes": 20,
+      "summary": "核心判断 ：前 19 章已经把病灶、镜像、工具与系统逐一展开，但真正压轴的问题并不在某一种工具本身，而在于这些工具应当由什么样的治理结构来承载。在中国式现代化的语境里，青少年足球作为一种公共品，需要的不是临时拼装的项目组合，而是一套能把政府、市场、学校、社区和专业机构稳定接起来的治理范式。这不是简单的\"由谁牵头\"或\"如何分工\"的执行问题，而是国家治理体系和治理能力现代化在体育领域的一次具体落点。",
+      "wordCount": 10303,
+      "readingMinutes": 23,
       "imageCount": 0,
       "referenceCardCount": 1,
-      "updatedAt": "2026-05-22 15:11"
+      "updatedAt": "2026-05-25 21:43"
     },
     {
       "id": "afterword",
@@ -409,11 +409,11 @@
       "sectionTitle": "后记",
       "contentPath": "content/chapters/afterword.json",
       "summary": "后记仅为本书学术答卷的延伸，承担学术论证之外的另一种功能——告诉读者这本书从哪里来、被谁写下、为谁而写。本书的所有学术论断在第 1 章至第 20 章及附录中已经完整呈现，欢迎同行学者基于这些论断做进一步研究、批评、修订。",
-      "wordCount": 2130,
+      "wordCount": 2304,
       "readingMinutes": 5,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 17:07"
+      "updatedAt": "2026-05-25 21:43"
     },
     {
       "id": "appendix-a",
@@ -428,7 +428,7 @@
       "readingMinutes": 7,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 16:07"
+      "updatedAt": "2026-05-22 14:07"
     },
     {
       "id": "appendix-b",
@@ -439,11 +439,11 @@
       "sectionTitle": "附录",
       "contentPath": "content/chapters/appendix-b.json",
       "summary": "本附录把全书各章末\"数据分级附录\"统一为一份完整的方法论文档。本书涉及大量跨国别、跨年代、跨主管部门的数据。在数据可信度上保持透明，是本书与一般\"中国足球评论\"的根本区别。本附录给出的是 全书使用的数据可信度分级标准、来源核证方法、原创概念的研究估算逻辑 ——目的是让任何同行学者都能独立复核本书的每一处数据声明。",
-      "wordCount": 2959,
+      "wordCount": 3035,
       "readingMinutes": 7,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 16:14"
+      "updatedAt": "2026-05-22 23:17"
     },
     {
       "id": "appendix-d",
@@ -458,7 +458,7 @@
       "readingMinutes": 9,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 17:07"
+      "updatedAt": "2026-05-22 15:07"
     },
     {
       "id": "appendix-e",
@@ -469,11 +469,11 @@
       "sectionTitle": "附录",
       "contentPath": "content/chapters/appendix-e.json",
       "summary": "本附录是本书理论引擎的形式化基础。本书引言第 3 节用普通话讲了一遍这台引擎；本附录把它拉回正式数学。但这一附录仍然是浓缩版——完整论文（约 50,000 字 + 33 个公式 + 多组反事实模拟）单独成稿，标题为《软信息、多委托人与举国体制的边界——信息结构、激励互补性与集权的超加性损失》，已投稿至中国体育人文社科核心期刊。本附录的目的，是让本书读者在不离开本书的情况下，对引擎的核心命题有形式化的把握；同时，让有进一步学理兴趣的读者知道完整论文的具体路径。",
-      "wordCount": 4918,
+      "wordCount": 4936,
       "readingMinutes": 11,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 16:12"
+      "updatedAt": "2026-05-22 23:17"
     },
     {
       "id": "appendix-f",
@@ -484,11 +484,11 @@
       "sectionTitle": "附录",
       "contentPath": "content/chapters/appendix-f.json",
       "summary": "本附录是本书所有具体案例的统一索引。本书在 20 章中引用了大量国际与中国本土案例，从拉玛西亚到崇明岛，从 1971 年乒乓外交到 2024 年中美青少年乒乓球邀请赛。本附录给出每个案例的\"独立索引页\"——案例在本书中出现的所有位置、关键数据、来源说明、案例的代表性论点。读者可以从某一具体案例入手，快速找到本书对它的全部讨论。",
-      "wordCount": 5063,
+      "wordCount": 5082,
       "readingMinutes": 11,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 16:16"
+      "updatedAt": "2026-05-22 23:17"
     }
   ]
 }

@@ -14,7 +14,7 @@
     {
       "id": "card-01",
       "title": "数据分级附录",
-      "html": "<h2 id=\"_11\">数据分级附录</h2><div class=\"table-wrap\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>级别</th>\n<th>内容</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A 级</td>\n<td>Barça Academy / AC Milan International Academy / City Football Schools / Real Madrid Foundation 各官方网站资料；体育类高校的国际合作组织职责</td>\n</tr>\n<tr>\n<td>B 级</td>\n<td>四类方法资产对照表中的\"输出核心\"判断（基于公开资料综合）；试点原型四要素具体设计；五种失败模式典型案例（综合公开报道与行业访谈）</td>\n</tr>\n<tr>\n<td>C 级</td>\n<td>国内现有\"国际青训合作\"项目按四环节框架的适配度判断（基于公开报道，未点名）</td>\n</tr>\n</tbody>\n</table></div><hr/><p><em>本章主要参考来源：Barça Academy 官方网站（2025-2026）；AC Milan International Academy 官方文件；City Football Group 全球青训项目年报；FC Barcelona 2025-07 咨询项目公告；DFB Spielidee 2017 文献；JFA Japan's Way 2016 文献。Day07 / Day08 原稿《青训不是训练营》《把训练营做成青训》是本章的基底。</em></p>"
+      "html": "<h2 id=\"_11\">数据分级附录</h2><div class=\"table-wrap\"><table class=\"data-table\">\n<thead>\n<tr>\n<th>级别</th>\n<th>内容</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>A 级</td>\n<td>Barça Academy / AC Milan International Academy / City Football Schools / Real Madrid Foundation 各官方网站资料；体育类高校的国际合作组织职责</td>\n</tr>\n<tr>\n<td>B 级</td>\n<td>四类方法资产对照表中的\"输出核心\"判断（基于公开资料综合）；试点原型四要素具体设计；五种失败模式典型案例（综合公开报道与行业访谈）</td>\n</tr>\n<tr>\n<td>C 级</td>\n<td>国内现有\"国际青训合作\"项目按四环节框架的适配度判断（基于公开报道，未点名）</td>\n</tr>\n</tbody>\n</table></div><hr/><p><em>本章主要参考来源：Barça Academy 官方网站（2025-2026）；AC Milan International Academy 官方文件；City Football Group 全球青训项目年报；FC Barcelona 2025-07 咨询项目公告；DFB Spielidee 2017 文献；JFA Japan's Way 2016 文献。</em></p>"
     }
   ],
   "blockIndex": [
@@ -745,5 +745,5 @@
     }
   ],
   "sourcePath": "03_第三编_治理重建_第14-20章/第16章_引入式青训.md",
-  "updatedAt": "2026-05-22 14:58"
+  "updatedAt": "2026-05-23 06:15"
 }

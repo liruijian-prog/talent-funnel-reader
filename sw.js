@@ -1,4 +1,4 @@
-const CACHE_NAME = "talent-funnel-reader-v2";
+const CACHE_NAME = "talent-funnel-reader-v3";
 const CORE_ASSETS = [
   "./",
   "./index.html",
