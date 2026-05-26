@@ -1,4 +1,4 @@
-const CACHE_NAME = "talent-funnel-reader-v4";
+const CACHE_NAME = "talent-funnel-reader-v5";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -43,6 +43,15 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (requestUrl.pathname.includes("/content/")) {
+    event.respondWith(networkFirst(event.request));
+    return;
+  }
+
+  if (
+    requestUrl.pathname.endsWith("/app.js") ||
+    requestUrl.pathname.endsWith("/styles.css") ||
+    requestUrl.pathname.endsWith("/sw.js")
+  ) {
     event.respondWith(networkFirst(event.request));
     return;
   }
