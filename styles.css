@@ -550,6 +550,38 @@ input {
   padding: 0;
 }
 
+.math-block,
+.math-inline {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.math-block {
+  margin: 1.15em 0;
+  padding: 0.35em 0.2em;
+  text-align: center;
+}
+
+.math-inline {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.math-rendered .katex {
+  font-size: 1.04em;
+}
+
+.math-block.math-rendered .katex-display {
+  margin: 0;
+}
+
+.math-render-failed {
+  font-family: var(--font-mono, "SFMono-Regular", ui-monospace, monospace);
+  font-size: 0.95em;
+  white-space: pre-wrap;
+}
+
 .figure-block {
   margin: 1.8em 0 0.7em;
 }

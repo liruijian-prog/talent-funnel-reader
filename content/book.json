@@ -4,8 +4,8 @@
     "shortTitle": "人才漏斗",
     "subtitle": "中国青少年足球的结构诊断、国际镜像与治理重建",
     "description": "一套面向手机阅读的书稿阅读器原型。内容来自当前书稿副本，可在后续修订后重建并自动同步到阅读端。",
-    "version": "2026.05.25.2326",
-    "generatedAt": "2026-05-25 23:55",
+    "version": "2026.05.26.1119",
+    "generatedAt": "2026-05-26 11:24",
     "sourceRoot": "outputs/book_终稿前收口版_2026-05-22/manuscript",
     "coverImagePath": "content/assets/cover/中国足球诊断金字塔.png",
     "chapterCount": 30,
@@ -83,7 +83,7 @@
       "readingMinutes": 12,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-25 21:58"
+      "updatedAt": "2026-05-26 11:18"
     },
     {
       "id": "concept-card",
@@ -473,7 +473,7 @@
       "readingMinutes": 11,
       "imageCount": 0,
       "referenceCardCount": 0,
-      "updatedAt": "2026-05-22 23:17"
+      "updatedAt": "2026-05-26 11:19"
     },
     {
       "id": "appendix-f",

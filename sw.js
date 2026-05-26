@@ -1,4 +1,4 @@
-const CACHE_NAME = "talent-funnel-reader-v3";
+const CACHE_NAME = "talent-funnel-reader-v4";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -6,6 +6,9 @@ const CORE_ASSETS = [
   "./app.js",
   "./site.webmanifest",
   "./assets/icon.svg",
+  "./vendor/katex/katex.min.css",
+  "./vendor/katex/katex.min.js",
+  "./vendor/katex/auto-render.min.js",
   "./content/book.json",
   "./content/search-index.json",
   "./content/glossary.json",

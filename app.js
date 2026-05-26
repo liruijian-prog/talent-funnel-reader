@@ -20,7 +20,27 @@ const PANEL_IDS = [
   "noteEditorOverlay",
 ];
 
-const GLOSSARY_EXCLUDE_TAGS = new Set(["A", "BUTTON", "CODE", "PRE", "SCRIPT", "STYLE", "TEXTAREA"]);
+const GLOSSARY_EXCLUDE_TAGS = new Set([
+  "A",
+  "BUTTON",
+  "CODE",
+  "PRE",
+  "SCRIPT",
+  "STYLE",
+  "TEXTAREA",
+  "MATH",
+  "MROW",
+  "MSUP",
+  "MSUB",
+  "MSUBSUP",
+  "MFRAC",
+  "MI",
+  "MN",
+  "MO",
+  "MTEXT",
+  "SEMANTICS",
+  "ANNOTATION",
+]);
 
 const state = {
   manifest: null,
@@ -450,12 +470,37 @@ async function openChapter(chapterId, { restoreScroll = false, updateHash = true
 }
 
 function decorateRenderedContent() {
+  renderMath(dom.chapterContent);
   dom.chapterContent.querySelectorAll("a[target='_blank']").forEach((anchor) => {
     anchor.title = "在新窗口打开";
   });
 
   state.currentChapterTerms = decorateGlossaryTerms(dom.chapterContent);
   renderAnnotationState();
+}
+
+function renderMath(root) {
+  if (!window.katex) {
+    return;
+  }
+
+  root.querySelectorAll("[data-math]").forEach((node) => {
+    const expression = node.dataset.math || "";
+    const displayMode = node.classList.contains("math-block");
+    try {
+      window.katex.render(expression, node, {
+        throwOnError: false,
+        displayMode,
+        output: "htmlAndMathml",
+        strict: "warn",
+      });
+      node.removeAttribute("data-math");
+      node.classList.add("math-rendered");
+    } catch (error) {
+      node.textContent = displayMode ? `$$${expression}$$` : `$${expression}$`;
+      node.classList.add("math-render-failed");
+    }
+  });
 }
 
 function updateChapterTools() {

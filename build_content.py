@@ -8,6 +8,7 @@ import re
 import shutil
 from dataclasses import dataclass
 from datetime import datetime
+from html import escape as html_escape
 from pathlib import Path
 
 from bs4 import BeautifulSoup, Tag
@@ -80,6 +81,8 @@ BOOK_STRUCTURE: list[ChapterSpec] = [
 IMAGE_PATTERN = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 HEADING_1_PATTERN = re.compile(r"^#\s+(.+)$")
 HEADING_2_PATTERN = re.compile(r"^##\s+(.+)$")
+BLOCK_MATH_PATTERN = re.compile(r"(?P<fence>^\$\$(?:\r?\n)?)(?P<content>.*?)(?:\r?\n)?\$\$\s*$", re.MULTILINE | re.DOTALL)
+INLINE_MATH_PATTERN = re.compile(r"(?<!\\)\$(?P<content>[^$\n]+?)(?<!\\)\$")
 
 
 def parse_args() -> argparse.Namespace:
@@ -155,7 +158,23 @@ def preprocess_markdown(markdown_text: str, source_file: Path, source_root: Path
         app_src = local_asset_path(src_path, source_root, output_dir)
         return f"![{alt_text}]({app_src})"
 
-    return IMAGE_PATTERN.sub(replace_image, markdown_text)
+    text = IMAGE_PATTERN.sub(replace_image, markdown_text)
+    text = protect_math(text)
+    return text
+
+
+def protect_math(markdown_text: str) -> str:
+    def replace_block(match: re.Match[str]) -> str:
+        content = match.group("content").strip()
+        return f'\n<div class="math-block" data-math="{html_escape(content, quote=True)}"></div>\n'
+
+    def replace_inline(match: re.Match[str]) -> str:
+        content = match.group("content").strip()
+        return f'<span class="math-inline" data-math="{html_escape(content, quote=True)}"></span>'
+
+    protected = BLOCK_MATH_PATTERN.sub(replace_block, markdown_text)
+    protected = INLINE_MATH_PATTERN.sub(replace_inline, protected)
+    return protected
 
 
 def extract_titles(markdown_text: str, fallback: str) -> tuple[str, str]:
