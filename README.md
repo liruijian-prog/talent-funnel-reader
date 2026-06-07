@@ -59,6 +59,12 @@ python3 scripts/deploy_reader.py
 - 同步到 GitHub Pages 仓库 `liruijian-prog/talent-funnel-reader`
 - 等待线上构建完成并打印可访问地址
 
+当前线上地址说明：
+
+- 根域入口：`https://liruijian-prog.github.io/`
+- 实际部署页：`https://liruijian-prog.github.io/talent-funnel-reader/`
+- 根域仓库 `liruijian-prog.github.io` 目前用于跳转到阅读器项目页
+
 常用参数：
 
 ```bash
@@ -100,6 +106,7 @@ python3 scripts/deploy_reader.py --source outputs/book_终稿前收口版_2026-0
 如果把整个 `reader/` 部署到 GitHub Pages 或其他公网静态托管：
 
 - 手机可以随时打开
+- 当前推荐对外分享根域入口 `https://liruijian-prog.github.io/`，实际内容仍部署在项目页 `https://liruijian-prog.github.io/talent-funnel-reader/`
 - 你后续只要重跑 `python3 reader/build_content.py` 并重新发布，就能更新内容
 - 但书稿内容会变成公网可访问资源，适合“愿意公开阅读”的版本，不适合保密稿
 

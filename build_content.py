@@ -48,27 +48,27 @@ BOOK_STRUCTURE: list[ChapterSpec] = [
     ChapterSpec("intro-01", "opening", "引言与图示", "00_引言与图示/引言_第1节_本书回答什么问题.md"),
     ChapterSpec("intro-02", "opening", "引言与图示", "00_引言与图示/引言_第2节_全书路线图.md"),
     ChapterSpec("intro-03", "opening", "引言与图示", "00_引言与图示/引言_第3节_本书的理论引擎.md"),
+    ChapterSpec("intro-04", "opening", "引言与图示", "00_引言与图示/引言_第4节_致谢与方法说明.md"),
     ChapterSpec("concept-card", "opening", "引言与图示", "00_引言与图示/概念论证文_教练身份谬误.md"),
     ChapterSpec("part1-ch01", "part-1", "第一编 · 病灶诊断", "01_第一编_病灶诊断_第1-6章/第1章_沉默的基座.md"),
     ChapterSpec("part1-ch02", "part-1", "第一编 · 病灶诊断", "01_第一编_病灶诊断_第1-6章/第2章_柠檬市场.md"),
     ChapterSpec("part1-ch03", "part-1", "第一编 · 病灶诊断", "01_第一编_病灶诊断_第1-6章/第3章_看不见的淘汰.md"),
     ChapterSpec("part1-ch04", "part-1", "第一编 · 病灶诊断", "01_第一编_病灶诊断_第1-6章/第4章_教练困局.md"),
     ChapterSpec("part1-ch05", "part-1", "第一编 · 病灶诊断", "01_第一编_病灶诊断_第1-6章/第5章_比赛的碎片.md"),
-    ChapterSpec("part1-ch06", "part-1", "第一编 · 病灶诊断", "01_第一编_病灶诊断_第1-6章/第6章_病灶链条.md"),
-    ChapterSpec("part2-ch07", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-13章/第7章_赛制的力量.md"),
-    ChapterSpec("part2-ch08", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-13章/第8章_教练是怎么炼成的.md"),
-    ChapterSpec("part2-ch09", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-13章/第9章_青训是什么.md"),
-    ChapterSpec("part2-ch10", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-13章/第10章_七条青训DNA.md"),
-    ChapterSpec("part2-ch11", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-13章/第11章_科技赋能.md"),
-    ChapterSpec("part2-ch12", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-13章/第12章_文化的根.md"),
-    ChapterSpec("part2-ch13", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-13章/第13章_镜子反射.md"),
-    ChapterSpec("part3-ch14", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第14-20章/第14章_沉淀产品与可持续性.md"),
-    ChapterSpec("part3-ch15", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第14-20章/第15章_复兴杯：分布式联赛操作系统.md"),
-    ChapterSpec("part3-ch16", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第14-20章/第16章_引入式青训.md"),
-    ChapterSpec("part3-ch17", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第14-20章/第17章_中国答卷.md"),
-    ChapterSpec("part3-ch18", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第14-20章/第18章_文化沉淀.md"),
-    ChapterSpec("part3-ch19", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第14-20章/第19章_六个打通.md"),
-    ChapterSpec("part3-ch20", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第14-20章/第20章_治理范式.md"),
+    ChapterSpec("part1-ch06", "part-1", "第一编 · 病灶诊断", "01_第一编_病灶诊断_第1-6章/第6章_五症一因.md"),
+    ChapterSpec("part2-ch07", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-14章/第7章_国际镜像导览.md"),
+    ChapterSpec("part2-ch08", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-14章/第8章_赛制的力量_新版.md"),
+    ChapterSpec("part2-ch09", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-14章/第9章_教练是怎么炼成的_新版.md"),
+    ChapterSpec("part2-ch10", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-14章/第10章_青训四范式_新版.md"),
+    ChapterSpec("part2-ch11", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-14章/第11章_七条DNA_新版.md"),
+    ChapterSpec("part2-ch12", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-14章/第12章_科技赋能_新版.md"),
+    ChapterSpec("part2-ch13", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-14章/第13章_文化的根_新版.md"),
+    ChapterSpec("part2-ch14", "part-2", "第二编 · 国际镜像", "02_第二编_国际镜像_新版_第7-14章/第14章_镜子反射.md"),
+    ChapterSpec("part3-ch15", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第15-21章/第15章_复兴杯：联赛操作系统的试点探索.md"),
+    ChapterSpec("part3-ch16", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第15-21章/第16章_青训产品化：从引入到沉淀.md"),
+    ChapterSpec("part3-ch17", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第15-21章/第17章_AI赋能体育场景：场景定义者的窗口期.md"),
+    ChapterSpec("part3-ch18", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第15-21章/第18章_足球的底层构件：如何把比赛做成文化.md"),
+    ChapterSpec("part3-ch19", "part-3", "第三编 · 治理重建", "03_第三编_治理重建_第15-21章/第19章_中国答卷：青少年足球的治理范式与实践路径.md"),
     ChapterSpec("afterword", "closing", "后记", "00_引言与图示/后记_一份来自北体大的答卷.md"),
     ChapterSpec("appendix-a", "appendices", "附录", "04_附录/附录A_完整术语表.md"),
     ChapterSpec("appendix-b", "appendices", "附录", "04_附录/附录B_数据分级与方法论.md"),
@@ -141,7 +141,12 @@ def copy_cover_asset(source_root: Path, output_dir: Path) -> str:
 
 
 def local_asset_path(src_path: Path, source_root: Path, output_dir: Path) -> str:
-    relative = src_path.relative_to(source_root)
+    try:
+        relative = src_path.relative_to(source_root)
+    except ValueError:
+        # Image lives outside manuscript/ (e.g. ../figures/). Fall back to
+        # placing it under a flat external/ namespace using its filename.
+        relative = Path("external") / src_path.name
     target = output_dir / "assets" / relative
     target.parent.mkdir(parents=True, exist_ok=True)
     if not target.exists():

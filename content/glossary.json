@@ -1,6 +1,6 @@
 {
-  "version": "2026.05.22.1407",
-  "updatedAt": "2026-05-22 14:07",
+  "version": "2026.05.26.2107",
+  "updatedAt": "2026-05-26 21:07",
   "entries": [
     {
       "id": "三重口径",
@@ -412,14 +412,14 @@
       ]
     },
     {
-      "id": "五项杠杆",
-      "title": "五项杠杆",
+      "id": "五种结构资源",
+      "title": "五种结构资源",
       "short": "",
-      "english": "Five Leverage Points",
+      "english": "Five Structural Resources",
       "chapter": "第 13 章",
-      "definition": "在四重锁约束下中国可用的五项最有效干预点",
+      "definition": "在四重锁约束下中国仍可重新组合的五类关键资源",
       "aliases": [
-        "五项杠杆"
+        "五种结构资源"
       ]
     },
     {
